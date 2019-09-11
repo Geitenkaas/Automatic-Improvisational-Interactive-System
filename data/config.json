@@ -9,13 +9,13 @@
 							"chan002",
 							"chan003"
 						],
-			"media_path": "C:\Users\Boyd Branch\Documents\GitHub\Automatic-Improvisational-Interactive-System",
+			"media_path": "D:\\",
 			"role": "draw",
 			"tox": "modules/container_draw_node/container_draw_node.tox"
 		},
 		"controller001":{
 			"channels": [ "controller" ], 
-			"media_path": "C:\Users\Boyd Branch\Documents\GitHub\Automatic-Improvisational-Interactive-System", 
+			"media_path": "D:\\", 
 			"role": "controller",
 			"tox": "modules/container_controller/container_controller.tox"
 		}
@@ -25,13 +25,13 @@
 		"chan001":{		
 			"width"         : 1280,
 			"height"        : 720,
-			"type"          : "led",
+			"type"          : "projector",
 			"orientation"   : 0 
 		},
 		"chan002":{		
 			"width"         : 1280,
 			"height"        : 720, 
-			"type"          : "led",  
+			"type"          : "projector",  
 			"orientation"   : 0
 		},
 		"chan003":{		
@@ -43,7 +43,7 @@
 		"controller":{		
 			"width"         : 1280,
 			"height"        : 720,
-			"type"          : "projector", 
+			"type"          : "lcd", 
 			"orientation"   : 0
 		}	
     },
@@ -59,7 +59,7 @@
 		
 		"lcd"         :  {
             "tox"           : "modules/_blueprints/container_lcd/container_lcd.tox"
-        },
+        }
     },
 
 	"output_devices" : {
