@@ -57,7 +57,7 @@ class Output:
             ---------
             none		
         '''        
-        # self.Create_nodes()
+        self.Create_nodes()
 
         # completed startup from output
         print("Touch_start complete from Output | {}".format(self.MyOp))
